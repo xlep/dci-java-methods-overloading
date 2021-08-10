@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SalaryBonusCalculator {
+public class Solution {
   public static final double SALES_REP_BONUS_PERCENT = 0.1;
   public static final double SALES_REP_LIMIT = 10000.0;
   public static final double ENGINEER_BONUS_PER_UNIT = 20.0;
@@ -9,7 +9,7 @@ public class SalaryBonusCalculator {
   public static final int TECHNICIAN_BONUS_LIMIT_PARTTIME = 300;
 
   public static void main(String[] args) {
-    SalaryBonusCalculator bonusCalculator = new SalaryBonusCalculator();
+    Solution bonusCalculator = new Solution();
     bonusCalculator.getEmployeeDetails();
   }
 
